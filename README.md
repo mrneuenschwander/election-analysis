@@ -10,7 +10,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 3.    Calculate the total number of votes each candidate received.
 4.    Calculate the percentage of votes each candidate won.
 5.    Determine the winner of the election based on popular vote.
-6.    
+ 
 ## Resources
 -   Data Source: election_results. cv
 -   Software: Python 3.6.1, Visual Studio Code, 1.38.1
