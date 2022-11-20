@@ -1,9 +1,9 @@
 # Election-Analysis
-First dive into Python scripts
+First dive into Python scripts.
 
 
 ## Project Overview
-The primary purpose of this project is to write a script capable of certifying the local congressional election for a State of Colorado Board of Elections. This project, as will be explained, may be easily modified for use in other elctions as well, making it more versatile and reliable than other methods of certification.
+The primary purpose of this project was to write a script capable of certifying a local congressional election for a State of Colorado Board of Elections. This project, as will be explained, may be easily modified for use tracking other data as well, making it more versatile, consistent, and reliable than other methods of certification.
 
 ## Primary Objectives:
 1.    Calculate the total number of votes cast.  
@@ -95,4 +95,6 @@ This could be easily modified for any number of counties, in that the list and d
 
 ## Challenge Summary
     
-The challenge finds that of the 3 counties that voted, Denver is far and away the winner by sheer turnout. Dwarfing the other two counties, Denver alone holds 82.8% of all votes cast. The script that finds this is the same as the one that assigns votes to the Candidates 
+The challenge finds that of the 3 counties that voted, Denver is far and away the winner by sheer turnout. Dwarfing the other two counties, Denver alone holds 82.8% of all votes cast. The script that finds this is the same as the one that assigns votes to the Candidates.
+
+As far as modifications go, there isn't much to do as far as getting the same style of results printed out for other elections. With additional data, there is the possibility to track as many categories as desired, assuming they held the same list configuration with all data being assigned a column. Simply modifying or adding to the "for row in reader" loop's " x = row[y]" variables (starting Line 40) will allow for a more varied range of searches should more data be added to the source: approval ratings, funding totals, previous term history, running mates, and more. The other major changes to make would be assigning the containers for these statistics, which would be added much the same way as the county tracker for the challenge (set a list, define a dictionary, then iterate through the relevant section using a new 'for' loop and compare them via similar means to the county and candidate winner determinations). The beauty of this script lies in it's reuseability; as there are little to no hard coded values outside of the .csv row references, as long as the upcoming data to be analyzed is formatted the same as the previous set, it will give reliable, repeatable results each and every time.
