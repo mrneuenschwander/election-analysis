@@ -46,8 +46,10 @@ The individual candidate's results:
 -   Diana DeGette, who received 73.8% of the vote and 272,892 votes.
 
 ## Challenge Overview
+    
     The challenge was intended to do much the same as the rest of the script, but adds the information block that shows the individual county's voter counts, as well as the largest turnout: IMAGE HERE
 
     This could be easily modified for any number of counties, in that the list they're stored in is empty until the script reads the refrence file and fills it on each new run. Assuming a similar .csv for future elections, this script would be recycleable indefinitely, or until such time as the data is collected via other means before being sent for certification.
 ## Challenge Summary
+    
     The challenge finds that of the 3 counties that voted, Denver is far and away the winner by sheer turnout. Dwarfing the other two counties, Denver alone holds 82.8% of all votes cast. The script that finds this is the same as the one that assigns votes to the Candidates 
