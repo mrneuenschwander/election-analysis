@@ -49,9 +49,9 @@ Using a few unfilled variables:
 The script takes the votes counted and stored for each candidate and compares them with the unfilled variables sequentially. If the next candidate's value is higher than the last, their numbers then take the place of the "winning" variable, and so on until a winner is decided and displayed:
 
 ![Screenshot 2022-11-20 at 3 35 38 PM](https://user-images.githubusercontent.com/116296092/202930012-a1cde54f-45d1-4e07-b578-4bdfe2882eb4.png)
+
 ![Screenshot 2022-11-20 at 3 35 55 PM](https://user-images.githubusercontent.com/116296092/202930024-33cfafd9-dc6c-4d4a-aacc-bf699a7eeba2.png)
 
- 
 ## Resources
 
 -   Data Source: election_results.csv
