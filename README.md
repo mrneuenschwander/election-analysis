@@ -91,7 +91,7 @@ The challenge was intended to do much the same as the rest of the script, but ad
 ![Screenshot 2022-11-20 at 3 43 03 PM](https://user-images.githubusercontent.com/116296092/202930368-bb6b97bc-2d9e-414b-af6a-3b47616a4ce3.png)
 
 
-This could be easily modified for any number of counties, in that the list and dictionary they're stored are empty until the script reads the reference file and fills them on each new run. Assuming a similarly structured .csv for future elections, this script would be recycleable indefinitely, or until such time as the voting data is collected via other means before being sent for certification.
+This could be easily modified for any number of counties, in that the list and dictionary they're stored in are empty until the script reads the reference file and fills them on each new run. Assuming a similarly structured .csv for future elections, this script would be recycleable indefinitely, or until such time as the voting data is collected via other means before being sent for certification.
 
 ## Challenge Summary
     
